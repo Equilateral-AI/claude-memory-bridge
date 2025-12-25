@@ -191,7 +191,6 @@ Contributions welcome! Some ideas:
 - [ ] Memory search/query commands
 - [ ] Export/import memory
 - [ ] Memory expiration settings
-- [ ] Cross-project global learnings
 
 ## License
 

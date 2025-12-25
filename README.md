@@ -52,6 +52,8 @@ The pre-compact hook extracts:
 
 Stored in SQLite at `~/.claude/memory-bridge.db`.
 
+**Scoped by project**: Memory is keyed by working directory. Sessions from `/path/to/projectA` won't leak into `/path/to/projectB`. Each project maintains its own rolling 5-session window.
+
 ## Configuration
 
 Edit `hooks/pre-compact.js` to customize:

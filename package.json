@@ -1,0 +1,34 @@
+{
+  "name": "claude-memory-bridge",
+  "version": "1.0.0",
+  "description": "Minimal memory persistence for Claude Code using hooks",
+  "main": "hooks/session-start.js",
+  "bin": {
+    "memory-bridge-install": "./install.js"
+  },
+  "scripts": {
+    "install-hooks": "node install.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "hooks",
+    "memory",
+    "context",
+    "ai",
+    "llm"
+  ],
+  "author": "Equilateral AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Equilateral-AI/claude-memory-bridge"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

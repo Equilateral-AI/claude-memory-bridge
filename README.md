@@ -1,10 +1,10 @@
 # Claude Memory Bridge
 
-**Minimal memory persistence for Claude Code using hooks**
+**Simple single-user, project-scoped memory for Claude Code**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Claude Code conversations are ephemeral - when context compacts, previous session knowledge is lost. This bridge saves key context before compaction and reinjects it at session start.
+A basic workaround for context loss during compaction. Saves key decisions before compaction and reinjects them at session start. Helpful for longer sessions, but not a replacement for proper memory management.
 
 ## Quick Start
 
